@@ -37,7 +37,7 @@ attachInterrupt(digitalPinToInterrupt(INPIN), IOC, RISING);
 
 
 void loop() {
-  // put your main code here, to run repeatedly:
+  
   if ((cnt1 >= 31)&&(cnt1 < 60)){
     digitalWrite(OUTPIN, LOW);
   }
